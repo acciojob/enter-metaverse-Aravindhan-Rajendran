@@ -8,8 +8,17 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<p id="status">Enter the Metaverse</p>
+	<button type="button" onclick="enter()" id="enterBtn">Enter</button>
     <script type="text/javascript" src="./script.js">
 </script>
+	<script>
+		function enter()
+		{
+			let h=document.getElementById("status");
+			h.innerHTML="<h1>Entered Metaverse</h1>";
+		}
+	</script>
 
 </body>
 
